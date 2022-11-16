@@ -1,3 +1,11 @@
+/*
+    +
+   ++
+  +++
+ ++++
++++++
+*/
+
 const num_lines = 5;
 let num_spaces = num_lines - 1;
 
@@ -8,7 +16,7 @@ while(num_spaces >= 0){
 }
 
 function k_spaces_t_pluses(k, t){
-    result = "";
+    let result = "";
     for(let i = 0; i < k; i++)
     {
         result += " ";

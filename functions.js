@@ -6,9 +6,10 @@ function factorial(number){
     }
     return result
 }
-
+// gcd(a, b) = gcd(b, a % b)
 function gcd(num1, num2)
 {
+    let temp;
     while(num2 != 0){
         temp = num1; 
         num1 = num2; 
@@ -24,7 +25,7 @@ function lcm(num1, num2)
 
 function toHexadecimal(num)
 {
-    let result = ""
+    let result = "";
     let remainder;
     while(num != 0){
         remainder = num % 16;

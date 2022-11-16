@@ -1,3 +1,3 @@
 myFunctions = require('./functions')
+console.log(myFunctions.factorial(5))
 
-console.log(myFunctions.toHexadecimal(5))
